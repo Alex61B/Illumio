@@ -61,7 +61,7 @@ This runs a test suite that:
 
 ### ----------------------- Additional Analysis ----------------------- ###
 
-# Edge Cases:
+**Edge Cases:**
 - Malformed or incomplete flow log entries are padded, not skipped, and are still tagged (usually as "Untagged").
 - Duplicate keys in the lookup table emit a warning and overwrite previous entries, ensuring predictable behavior.
 - Case-insensitive protocol comparison guarantees robust tag matching even if input casing is inconsistent.
@@ -74,7 +74,7 @@ The code uses only built-in Python libraries and runs locally without requiring 
 
 ### --------------------- Sample Output (from provided data) --------------------- ###
 
-# Tag Counts:
+**Tag Counts**:
 ```
 Tag,Count
 sv_P2,1
@@ -83,7 +83,7 @@ email,3
 Untagged,8
 ```
 
-# Port/Protocol Combination Counts:
+**Port/Protocol Combination Counts**:
 ```
 Port,Protocol,Count
 25,tcp,1
